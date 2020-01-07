@@ -1,0 +1,40 @@
+body {
+  background-color: #d4112f;
+}
+
+.main {
+  display: inline-block;
+}
+
+.button1 {
+  font-family: "Muli", sans-serif;
+  background-color: #d4112f;
+  color: #fff;
+  border: 2px solid #fff; /* Green */
+  width: 170px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 0.75em;
+  vertical-align: top;
+  margin-right: -4px;
+}
+
+.svg-icon {
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+}
+
+.main:hover .button1 {
+  background-color: #092153;
+  border-color: #092153;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.main:hover .svg-icon {
+  background-color: #092153;
+  fill: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
